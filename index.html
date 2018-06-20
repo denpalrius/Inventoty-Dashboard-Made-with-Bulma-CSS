@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My first Bulma website</title>
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar has-shadow is-fixed-top" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <span class="icon">
+          <i class="fas fa-lg fa-bars"></i>
+        </span>
+      </a>
+
+      <a class="navbar-item" href="#">
+        <img src="images/lean-logo.jpg" alt"">
+      </a>
+      <div class="navbar-burger burger" data-target="mainNavbarMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+
+    <div id="mainNavbarMenu" class="navbar-menu">
+      <div class="navbar-start">
+
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item is-pulled-left">
+          <p class="control has-icons-left">
+            <input class="input  is-rounded" type="search" placeholder="search">
+            <span class="icon is-small is-left">
+              <i class="fas fa-search"></i>
+            </span>
+          </p>
+        </div>
+        <a class="navbar-item">
+          <span class="icon">
+            <i class="far fa-lg fa-bell" aria-hidden="true"></i>
+          </span>
+
+
+          <span class="dot"></span>
+        </a>
+      </div>
+
+      <a class="navbar-item">
+        <img class="navbar-avatar" src="https://avatars1.githubusercontent.com/u/2971971" alt="">
+        <span class="avatar-title">Dennis Riungu</span>
+
+      </a>
+
+    </div>
+    </div>
+  </nav>
+
+  <div class="is-fullheight" style="margin-top: 52px; height: 100%">
+    <div class="columns" style="margin: 0px;height: 100%">
+      <div class="column is-2 is-sidebar-menu is-hidden-mobile" style="background-color: white; overflow: auto">
+        <aside class="menu">
+          <p class="menu-label">
+            General
+          </p>
+          <ul class="menu-list">
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="far fa-chart-bar" aria-hidden="true"></i>
+                </span>
+                <Span>Dashboard</Span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="far fa-plus-square" aria-hidden="true"></i>
+                </span>
+                <Span>Receive Inventory</Span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="far fa-list-alt" aria-hidden="true"></i>
+                </span>
+                <Span>Manage inventory</Span>
+              </a>
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="icon">
+                      <i class="fas fa-cart-plus" aria-hidden="true"></i>
+                    </span>
+                    <Span>Check in</Span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="icon">
+                      <i class="fas fa-sign-out-alt" aria-hidden="true"></i>
+                    </span>
+                    <Span>Check out</Span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="icon">
+                      <i class="fas fa-plus" aria-hidden="true"></i>
+                    </span>
+                    <Span>Add an item</Span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <p class="menu-label">
+            Administration
+          </p>
+          <ul class="menu-list">
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="far fa-user" aria-hidden="true"></i>
+                </span>
+                <Span>Manage users</Span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-truck" aria-hidden="true"></i>
+                </span>
+                <Span>Manage suppliers</Span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="column" style="margin: 12px">
+        <div class="columns" style="padding-top: 52px">
+          <div class="column is-3">
+            <div class="fancy-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="content has-text-right" style="padding-bottom: 30px;">
+                    <div>
+                      <span class="fancy-card-title">23</span>
+                      <span class="fancy-card-subtitle">cheked in</span>
+                    </div>
+                    <br>
+                    <div class="fancy-card-subtitle">
+                      <span>this week</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-card-header">
+                <i class="far fa-user icon-header" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="column is-3">
+            <div class="fancy-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="content has-text-right" style="padding-bottom: 30px;">
+                    <div>
+                      <span class="fancy-card-title">13</span>
+                      <span class="fancy-card-subtitle">cheked out</span>
+                    </div>
+                    <br>
+                    <div class="fancy-card-subtitle">
+                      <span>this month</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-card-header">
+                <i class="far fa-user icon-header" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="column is-3">
+            <div class="fancy-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="content has-text-right" style="padding-bottom: 30px;">
+                    <div>
+                      <span class="fancy-card-title">45</span>
+                      <span class="fancy-card-subtitle">total inventory</span>
+                    </div>
+                    <br>
+                    <div class="fancy-card-subtitle">
+                      <span>since 12/3/2018</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-card-header">
+                <i class="far fa-user icon-header" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="column is-3">
+            <div class="fancy-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="content has-text-right" style="padding-bottom: 30px;">
+                    <div>
+                      <span class="fancy-card-title">23</span>
+                      <span class="fancy-card-subtitle">remaining inventory</span>
+                    </div>
+                    <br>
+                    <div class="fancy-card-subtitle">
+                      <span>in all stores</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-card-header">
+                <i class="far fa-user icon-header" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <!--script src="assets/js/jquery-panelslider/jquery.panelslider.min.js"></script-->
+  <script type="text/javascript" src="lib/main.js"></script>
+
+</body>
+
+</html>

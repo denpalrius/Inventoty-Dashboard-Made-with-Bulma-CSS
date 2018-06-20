@@ -1,0 +1,75 @@
+body {
+  height: calc(100vh - 52px);
+  background-color: #eff4f7;
+  color: #4a4a4a;
+}
+
+.navbar-avatar {
+  border-radius: 100px;
+  margin: 0 auto;
+  transform: scale(1);
+  transition: transform .4s;
+}
+
+.avatar-title {
+  padding-left: 5px;
+}
+
+.dot {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 8px;
+  height: 8px;
+  border-radius: 100px;
+  background: #00D1B2;
+  transform: scale(1);
+  transition: transform .4s;
+}
+
+.icon-header{
+  padding: 22px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.flex-card-header {
+  height: 68px;
+  width: 68px;
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 10px;
+  background-color: #4a473e;
+  border-radius: 3px;
+  box-shadow: 0 14px 26px -12px rgba(74, 71, 62, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(74, 71, 62, 0.2) !important;
+  transition: all 0.5s;
+}
+
+.card{
+  box-shadow: 0 3px 10px 4px rgba(0,0,0,0.04);
+  border-radius: 0.1875rem;  
+}
+
+.fancy-card{
+  margin-bottom: 20px;
+  min-width: 250px;
+}
+
+.fancy-card-title {
+  font-size: 1.35rem;
+  color: #444F60;
+  font-weight: 500;
+}
+.fancy-card-subtitle {
+  font-size: 1.4rem;
+  color: #4a473e;
+  font-weight: 500;
+  margin-bottom: -35px;
+}
+.card-content{
+  line-height: 1rem;
+  color: #4a473e;
+}
+.fancy-card-subtitle >span:last-child{
+  font-size: 1rem;
+}
