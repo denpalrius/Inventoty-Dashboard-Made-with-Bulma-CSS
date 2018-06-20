@@ -1,6 +1,6 @@
 # Inventoty Dashboard Made with Bulma CSS
 
-This app is made using the [Bulma Start template](https://www.npmjs.com/package/bulma-start).
+This template is made using the [Bulma Start template](https://www.npmjs.com/package/bulma-start) and is still _under development_.
 
 _[Bulma](https://bulma.io) is an open source CSS framework based on Flexbox and used by more than 100,000 developers._
 
@@ -12,6 +12,13 @@ Navigate to your desired directory and clone the repo using the following comman
 ```sh
 git clone https://github.com/denpalrius/Inventoty-Dashboard-Made-with-Bulma-CSS.git
 ```
+
+run
+```sh
+npm install
+```
+
+code
 
 ## What's included
 
