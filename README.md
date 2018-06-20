@@ -1,14 +1,16 @@
-# [Ekklesia Afrika Resouce Inventory](http:/ebcnairobi.org) App
+# Inventoty Dashboard Made with Bulma CSS
+
+This app is made using the [Bulma Start template](https://www.npmjs.com/package/bulma-start).
+
+_[Bulma](https://bulma.io) is an open source CSS framework based on Flexbox and used by more than 100,000 developers._
+
+If it's your first time seeing Bulma I advice you visit the [Bulma site](https://bulma.io) or the [Bulma Documentation](https://bulma.io/documentation) before getting into the code.
 
 ## Install
 
+Navigate to your desired directory and clone the repo using the following command:
 ```sh
-npm install bulma-start
-```
-_or_
-
-```sh
-yarn add bulma-start
+git clone https://github.com/denpalrius/Inventoty-Dashboard-Made-with-Bulma-CSS.git
 ```
 
 ## What's included

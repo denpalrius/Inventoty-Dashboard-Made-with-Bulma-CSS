@@ -1,14 +1,16 @@
 {
-  "name": "bulma-start",
-  "version": "0.0.2",
-  "description": "Start package for Bulma",
+  "name": "bulma-inventory",
+  "version": "0.0.1",
+  "description": "Inventoty Dashboard Made with Bulma CSS",
   "keywords": [
     "sass",
     "bulma",
     "css",
-    "start"
+    "start",
+    "inventory",
+    "dashboard"
   ],
-  "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
+  "author": "Dennis Riungu <denpalrius@gmail.com> (http://bespokefusion.com)",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.5",
